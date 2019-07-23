@@ -1,0 +1,35 @@
+{
+  "name": "istream",
+  "version": "0.1.2",
+  "description": "Chainable operators for iterators and async iterators",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d dist",
+    "format": "./scripts/format",
+    "lint": "./scripts/lint",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0"
+  },
+  "dependencies": {
+    "core-js": "^3.1.4"
+  }
+}

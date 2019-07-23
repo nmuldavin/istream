@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ESLINT_EXTS=js
+ESLINT_EXTRAS=()
+SRC_DIRS=\{src,jest\}
+
+eslint $SRC_DIRS/**/*.$ESLINT_EXTS ${ESLINT_EXTRAS[@]}
